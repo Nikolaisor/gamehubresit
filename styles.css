@@ -12,3 +12,10 @@
     align-items: center;
     justify-content: center;
 }
+
+.navicon {
+    width: auto;
+    height: 50px;
+    margin-inline-start: 100px;
+    margin-top: 5px;
+}
