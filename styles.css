@@ -1,3 +1,5 @@
+/* SOURCE */
+
 body {
     background-color: #272A2C;
     font-family: inter, sans-serif;
@@ -20,6 +22,8 @@ body {
     margin-inline-start: 70px;
     margin-top: 10px;
 }
+
+/* INDEX PAGE BELOW HERE */
 
 .lilla {
     max-width: 920px;
@@ -122,7 +126,162 @@ body {
 }
 
 .support {
+    display: block;
+    height: 500px;
     max-width: 960px;
     background-color: #424649;
-    border: black; font-size: 3cap;
+    border: 5px black;
+    text-decoration-color: #ffffff;
 }
+
+.supvector {
+    justify-content: right;
+    
+}
+
+.suph1 {
+    text-align: center;
+    font-size: xx-large;
+    color: #ffffff;
+    text-shadow: black;
+    text-decoration: solid;
+}
+
+
+/* ASSASSIN PAGE BELOW HERE */
+
+.assassintitle {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #ffffff;
+    z-index: 1;
+    text-shadow: black 2px 2px;
+}
+
+.assassincontainer {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.game-info-container {
+    margin-top: 20px;
+    max-width: 960px;
+    margin: auto;
+    background-color: #424649;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+
+.game-thumbnail {
+    width: 150px;
+    margin: 20px;
+}
+
+.game-info {
+    flex-grow: 1; 
+    padding: 20px;
+}
+
+.game-description {
+    font-size: 18px;
+    color: #ffffff;
+    padding-right: 20px;
+    text-align: justify;
+}
+
+.button-container {
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.orange-button {
+    background-color: #FFA500;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: auto;
+    margin-left: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.orange-button:hover {
+    background-color: #FF8C00;
+}
+
+.price {
+    color:#ffffff;
+    font-size: 35px;
+    text-align: right;
+    margin-right: 20px;
+}
+
+
+/* ALL_GAMES PAGE BELOW HERE */
+
+.allgamescontainer {
+    position: relative;
+    width: 960px;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.allgamestitle {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 35px;
+    text-decoration: underline;
+    color: #ffffff;
+    z-index: 1;
+    text-shadow: black 2px 2px;
+}
+
+.box {
+    width: 200px;
+    height: 310px;
+    background-color: #424649;
+    z-index: 1;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center; 
+    margin: 0 20px; 
+}
+
+.gametitle {
+    color: #ffffff
+}
+
+.allgamespurchase {
+    position: absolute;
+    bottom: 10px; 
+    left: 10;
+    text-align: center;
+}
+
+  
+.purchase-button {
+    position: absolute;
+    bottom: 10px; 
+    left: 10;
+    text-align: center;
+}
+
+
+/* ABOUT US */
