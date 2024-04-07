@@ -19,48 +19,71 @@
             </a>
             <img src="/resources/navicons/my_account.png" alt="my account" class="navicon">
             <img src="/resources/navicons/wishlist.png" alt="wishlist" class="navicon">
-            <a href="/cart.html">
+            <a href="cart.html">
                 <img src="/resources/navicons/cart.png" alt="cart" class="navicon">
             </a>
         </div>
     </nav>
 
+    <header class="cartheader">
+        <div class="cartmain">
+            <div class="carttext">
+                <h2 class="mycart">My cart</h2>
+            </div>
+        </div>
+    </header>
+
     <main>
-        <div class="assassincontainer">
-            <div class="assassintitle" style»="text-align: center;">Assassin</div>
-        </div>
+        <section class="cart2container">
+            <div class="cart2box"><img src="/resources/games/assassin.jpg"></div>
+            <div class="cart2box">
+                <p class="cart2boxtext">Assassin</p>
+            </div>
+            <div class="cart2box">
+                <p class="cart2boxtext" style="font-style: italic;">1 pc.</p>
+            </div>
+            <div class="cart2box">
+                <h2 class="cart2boxtext">$39</h3>
+            </div>
+        </section>
+    </main>
 
-        <div style="text-align: center; margin-top: 90px;">
-            <img src="https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/dzFtVoIIhwRHEIs2nYWF6/8e062a1be9a92e2b87961e7f62d79e75/acm-basim-960x540.jpg"
-                style="width: 960px;" alt="ACM Basim">
-        </div>
+
+    <section>
+        <div class="checkout">
+
+            <div class="checkoutcontainergreen">
+                <div class="heading">
+                    <h1 class="checkouth1">Check-out</h1>
+
+                </div>
+
+                <img src="/resources/Location-Check.png" class="greentic" alt="Green checkmark">
 
 
-        <div class="game-info-container" style="margin-top: 20px;">
-            <img src="/resources/games/assassin.jpg" alt="Assassin" class="game-thumbnail">
-            <div class="game-info">
-                <p class="game-description">Experience the story of Basim, a cunning street thief with nightmarish
-                    visions, seeking answers and justice as he navigates the bustling streets of ninth-century Baghdad.
-                    Through a mysterious, ancient organization known as the Hidden Ones, he will become a deadly Master
-                    Assassin and change his fate in ways he never could have imagined.</p>
-                <p class="price">$39</p>
-                <div class="button-container">
-                    <a href="/cart.html">
-                        <button class="orange-button">Add to Cart</button>
-                        <button class="orange-button">Purchase</button>
+                <div class="btn2">
+                    <h2 class="success">Transaction succeded!</h2>
+                    <a href="/index.html">
+                        <button class="return">return</button>
                     </a>
                 </div>
             </div>
         </div>
-    </main>
 
-    <!-- KOPIER OVER TIL ANDRE SIDER -->
+
+    </section>
+
+    <!-- KOPIER OVER TIL ANDRE SIDER --->
     <footer class="supboxes">
         <div class="supbox">
-            <h3>Get Help</h3>
+            <a href="/support.html">
+                <h3>Get Help</h3>
+            </a>
             <ul>
                 <li>FAQ - Frequenty asked questions</li>
-                <li>Customer support</li>
+                <a href="/support.html">
+                    <li>Customer support</li>
+                </a>
                 <li>Returns</li>
                 <li>Store feedback</li>
             </ul>
@@ -75,7 +98,9 @@
             </ul>
         </div>
         <div class="supbox">
-            <h3>About Us</h3>
+            <a href="/aboutus.html">
+                <h3>About Us</h3>
+            </a>
             <ul>
                 <li>Accessibility</li>
                 <li>Affiliates</li>
@@ -85,7 +110,11 @@
             </ul>
         </div>
     </footer>
+
+    <br>
+    <p class="copyright">© 2024 GameHub. All rights reserved.</p>
     <!-- KOPIER OVER TIL ANDRE SIDER -->
+
 </body>
 
 </html>
